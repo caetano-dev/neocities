@@ -53,13 +53,10 @@ footer {
     bottom: 0px;
 }
 
-/*full screen only*/
-@media screen and (min-width: 80rem) {
-    main,
-    header {
-        padding: 0 10rem;
-    }
-
+@media screen and (max-width: 50rem) {
+.about-main>img {
+    display: none;
+}
 }
 
 /*
